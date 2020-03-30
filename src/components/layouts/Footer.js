@@ -45,13 +45,14 @@ export const Footer = () => {
         </div>
         <div className='text-center footer-logo'>
           <h3 className='footer-list'>
-            &copy; 2020
+            &copy; 2020 {'    '}
             <img
               src={footerLogo}
               alt='Logo'
               style={{ width: '7.5vw', height: '1.5vw' }}
-            />{' '}
-            All rights reserved{' '}
+            />
+            {'      '}
+            All rights reserved{'   '}
           </h3>
         </div>
       </div>

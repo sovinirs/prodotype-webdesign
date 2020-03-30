@@ -568,6 +568,18 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  .footer-list {
+    font-size: 1.2vw;
+  }
+
+  .footer-heading {
+    font-size: 1.5vw;
+  }
+
+  .work-heading {
+    margin-top: 3vw;
+  }
+
   .card-title {
     font-size: 2vw;
     font-family: 'Roboto Slab', serif;
