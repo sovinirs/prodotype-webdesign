@@ -24,9 +24,8 @@ function App() {
       <Haveideas />
       <Footer />
       <Switch>
-        <Route exact path='/children-privacy-statement' component='{About}' />
-        <Route exact path='/linking-to-prodotype' component='{Register}' />
-        <Route exact path='/cookie-statement' component='{Login}' />
+        <Route exact path='/services' component='{Register}' />
+        <Route exact path='/contact' component='{Login}' />
       </Switch>
     </Router>
   );

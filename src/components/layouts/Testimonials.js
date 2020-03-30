@@ -2,11 +2,11 @@ import React from 'react';
 
 export const Testimonials = () => {
   return (
-    <div>
-      <div className='container testimonials-container'>
+    <div className='testimonials-container'>
+      <div className='container'>
         <div className='text-center'>
-          <h2 className='heading section-title text-danger'>Testimonials</h2>
-          <p className='sub-title text-center'>
+          <h2 className='heading section-title text-i-danger'>Testimonials</h2>
+          <p className='test-sub-title text-center'>
             At Prodotype, we value our clients’ desires. In a collaborative
             effort, our skilled teams work together with our clients to provide
             the best possible product and design, suited to not only for

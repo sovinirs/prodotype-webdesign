@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import planning from './images/planning.jpg';
+import planning from './images/planning.png';
 
 export const Worktogether = () => {
   const mission = (
