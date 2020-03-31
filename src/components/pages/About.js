@@ -40,9 +40,7 @@ export const About = () => {
                 <iframe
                   title='video'
                   src='https://www.youtube.com/embed/toPNWkeYEYo'
-                  frameborder='0'
                   allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen
                 ></iframe>
               </div>
             </div>
@@ -51,7 +49,7 @@ export const About = () => {
             <div className='row about-inner-2'>
               <div className='col-2'></div>
               <div className='col-2 text-right'>
-                <i class='icon far fa-file-alt'></i>
+                <i className='icon far fa-file-alt'></i>
               </div>
               <div className='col-6'>
                 <div className='text-white'>
@@ -68,7 +66,7 @@ export const About = () => {
             <div className='row about-inner-2'>
               <div className='col-2'></div>
               <div className='col-2 text-right'>
-                <i class='icon fas fa-pencil-alt'></i>
+                <i className='icon fas fa-pencil-alt'></i>
               </div>
               <div className='col-6'>
                 <div className='text-white'>
@@ -84,7 +82,7 @@ export const About = () => {
             <div className='row about-inner-2'>
               <div className='col-2'></div>
               <div className='col-2 text-right'>
-                <i class='icon fas fa-list'></i>
+                <i className='icon fas fa-list'></i>
               </div>
               <div className='col-6'>
                 <div className='text-white'>
@@ -100,7 +98,7 @@ export const About = () => {
             <div className='row about-inner-2'>
               <div className='col-2'></div>
               <div className='col-2 text-right'>
-                <i class='icon fas fa-lightbulb'></i>
+                <i className='icon fas fa-lightbulb'></i>
               </div>
               <div className='col-6'>
                 <div className='text-white'>
@@ -122,11 +120,11 @@ export const About = () => {
               its founders who are constantly at the helm,
               <br /> working toward improvement and quality service.
             </div>
-            <div className='row mt-5'>
-              <div className='col-md-6 col-12 text-right'>
+            <div className='row mt-3'>
+              <div className='col-md-6 col-12 text-center my-1'>
                 <img src={team1} alt='Jason' className='team' />
               </div>
-              <div className='col-md-6 col-12 text-left'>
+              <div className='col-md-6 col-12 text-center my-1'>
                 <img src={team2} alt='Karthick' className='team' />
               </div>
             </div>

@@ -665,6 +665,22 @@ iframe {
 }
 
 @media (max-width: 767px) {
+  .about-heading {
+    font-size: 2vw;
+  }
+
+  .about-text {
+    font-size: 1.5vw;
+  }
+
+  .team-heading {
+    font-size: 2vw;
+  }
+
+  .team-text {
+    font-size: 1.5vw;
+  }
+
   .about-inner {
     padding: 0 7vw;
   }
