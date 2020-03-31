@@ -227,6 +227,11 @@ img {
   border-radius: 50%;
 }
 
+.btn-white:hover {
+  background: var(--vdark-color);
+  color: white;
+}
+
 /* Navbar */
 .navbar {
   background-color: var(--vdark-color);
@@ -349,7 +354,7 @@ img {
 }
 
 .card {
-  border: var(--dark-color) 1px dotted;
+  border: var(--dark-color) 1px none;
 }
 
 .card-title {
@@ -411,8 +416,8 @@ img {
   font-family: 'Open Sans', sans-serif;
 }
 
-.testimonials-container {
-  margin-top: 2vw;
+.test-carousel-container {
+  padding: 0 10vw;
 }
 
 a:hover {
@@ -420,21 +425,37 @@ a:hover {
 }
 
 .client {
-  width: 15vw;
-  height: 15vw;
+  width: 10vw;
+  height: 10vw;
+  margin-top: -2vw;
   border-radius: 100%;
-  float: left;
+}
+
+.client-info {
+  margin-left: 2vw;
+  color: white;
+}
+
+.client-name {
+  color: var(--danger-color);
+  font-size: 1.5vw;
+  font-family: 'Roboto Slab', serif;
+}
+
+.client-title {
+  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footer-heading {
   font-family: 'Roboto Slab', serif;
   color: var(--danger-color);
-  font-size: 1.2vw;
+  font-size: 1.5vw;
 }
 
 .footer-list {
   color: white;
-  font-size: 0.9vw;
+  font-size: 1vw;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -442,8 +463,84 @@ a:hover {
   padding-bottom: 1vw;
 }
 
+.footer-item a:hover {
+  padding-left: 10px;
+  transition-duration: 0.2s;
+}
+
+.footer-item a {
+  transition-duration: 0.2s;
+}
+
 .footer-logo {
   margin-top: 1vw;
+}
+
+.contact-container {
+  margin-top: 5vw;
+}
+
+.testimonials-container {
+  margin-top: 2vw;
+}
+
+.about-inner {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  padding: 0 5vw;
+}
+
+.about-inner-2 {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  padding: 0 10vw;
+}
+
+.about-text {
+  font-size: 1vw;
+  font-weight: lighter;
+  color: white;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-heading {
+  font-size: 2vw;
+  font-weight: 100;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.team-heading {
+  color: var(--danger-color);
+  font-size: 2vw;
+  font-family: 'Roboto Slab', serif;
+}
+
+.team-text {
+  color: white;
+  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icon {
+  font-size: 5vw;
+  color: var(--danger-color);
+}
+
+iframe {
+  width: 40vw;
+  height: 30vw;
+}
+
+.team {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 100%;
+}
+
+.text-desc {
+  margin-top: 5vw;
 }
 
 /* Animation (Add After) */
@@ -568,12 +665,25 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  .about-inner {
+    padding: 0 7vw;
+  }
+
+  iframe {
+    width: 60vw;
+    height: 30vw;
+  }
+
+  .client-desc {
+    margin-left: -5vw;
+  }
+
   .footer-list {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 
   .footer-heading {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 
   .work-heading {

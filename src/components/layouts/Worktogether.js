@@ -69,7 +69,7 @@ export const Worktogether = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='container bg-vdark'>
       <div className='row'>
         <div className='col-md-6 col-sm-12 work text-center'>
           <img src={planning} alt='Prodotype' className='img-fluid' />

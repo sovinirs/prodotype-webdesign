@@ -1,9 +1,14 @@
 import React from 'react';
 import logo from './images/logo.png';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
+  const onClick = e => {
+    e.preventDefault();
+  };
+
   return (
-    <nav className='navbar navbar-expand-lg'>
+    <nav className='navbar fixed-top navbar-expand-lg'>
       <div className='container'>
         <a className='navbar-brand' href='/'>
           <img src={logo} alt='Prodotype' className='nav-img' />
@@ -24,25 +29,31 @@ export const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>About</a>
+              <Link to='/about'>About</Link>
             </li>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>Blog</a>
+              <a href='!#' onClick={onClick}>
+                Blog
+              </a>
             </li>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>Education</a>
+              <a href='!#' onClick={onClick}>
+                Education
+              </a>
             </li>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>Services</a>
+              <Link to='/services'>Services</Link>
             </li>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>Portfolio</a>
+              <a href='!#' onClick={onClick}>
+                Portfolio
+              </a>
             </li>
             <li className='nav-list nav-item navbar-inline'>
-              <a href='!#'>Contact</a>
+              <Link to='contact'>Contact</Link>
             </li>
           </ul>
         </div>
