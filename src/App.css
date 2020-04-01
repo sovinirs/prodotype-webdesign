@@ -604,6 +604,41 @@ iframe {
   min-height: 20vw;
 }
 
+.terms-container {
+  margin-top: 4rem;
+  background-image: url('./components/layouts/images/cover-two.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 20vw;
+}
+
+.terms-main-heading {
+  color: white;
+  font-size: 2vw;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 5vw;
+}
+
+.terms-heading {
+  color: var(--danger-color);
+  font-size: 3vw;
+  font-family: 'Roboto Slab', serif;
+  padding-top: 5vw;
+}
+
+.terms-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.2vw;
+  padding-top: 1rem;
+  margin-top: 3vw;
+}
+
+.terms-item-container {
+  padding: 0 5vw;
+}
+
 /* Start */
 .services-heading {
   color: white;
@@ -759,6 +794,18 @@ iframe {
 }
 
 @media (max-width: 767px) {
+  .terms-text {
+    font-size: 1.5vw;
+  }
+
+  .terms-main-heading {
+    font-size: 2vw;
+  }
+
+  .terms-heading {
+    font-size: 3vw;
+  }
+
   .services-heading {
     font-size: 4vw;
     margin-top: 7vw;

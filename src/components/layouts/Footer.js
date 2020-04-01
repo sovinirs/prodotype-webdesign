@@ -106,10 +106,10 @@ export const Footer = () => {
             <h3 className='footer-heading'>Legal</h3>
             <ul className='nav-list footer-list'>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='terms'>
                   <i className='fa fa-gavel fa-sm'></i>
                   <span>&nbsp;</span> Terms & Conditions
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
                 <a href='!#' onClick={onClick}>
