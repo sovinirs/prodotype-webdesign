@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import footerLogo from './images/footer-logo.png';
 
 export const Footer = () => {
@@ -58,22 +59,22 @@ export const Footer = () => {
             <h3 className='footer-heading'>Quick Links</h3>
             <ul className='nav-list footer-list'>
               <li className='nav-item footer-item'>
-                <a href='!#'>
+                <Link to='/'>
                   <i className='fa fa-home fa-sm'></i>
                   <span>&nbsp;</span> Home
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#'>
+                <Link to='/about'>
                   <i className='fa fa-users fa-sm'></i>
                   <span>&nbsp;</span> About Us
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#'>
+                <Link to='/services'>
                   <i className='fa fa-wrench fa-sm'></i>
                   <span>&nbsp;</span> Services
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
                 <a href='!#' onClick={onClick}>
@@ -94,10 +95,10 @@ export const Footer = () => {
                 </a>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#'>
+                <Link to='contact'>
                   <i className='fa fa-phone-alt fa-sm'></i>
                   <span>&nbsp;</span> Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
