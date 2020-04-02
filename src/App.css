@@ -498,7 +498,7 @@ a:hover {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.5vw;
   font-weight: 400;
   line-height: 1.5;
   color: #ced4da;
@@ -518,7 +518,7 @@ a:hover {
   background: var(--light-color);
   color: #1f1d1c;
   padding: 0.5rem 1.5rem;
-  font-size: 1rem;
+  font-size: 1vw;
   font-family: 'Open Sans', sans-serif;
   border: 1px white solid;
   cursor: pointer;
@@ -606,9 +606,7 @@ iframe {
 
 .terms-container {
   margin-top: 4rem;
-  background-image: url('./components/layouts/images/cover-two.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   min-height: 20vw;
 }
 
@@ -618,6 +616,7 @@ iframe {
   font-weight: bolder;
   font-family: 'Roboto Slab', serif;
   margin-top: 5vw;
+  margin-bottom: 10rem;
 }
 
 .terms-heading {
@@ -636,7 +635,7 @@ iframe {
 }
 
 .terms-item-container {
-  padding: 0 5vw;
+  padding: 0 1vw;
 }
 
 /* Start */
@@ -672,6 +671,17 @@ iframe {
   padding: 0 7vw;
 }
 
+.service-row-margin {
+  margin-top: 2rem;
+}
+
+.section-title {
+  font-size: 2.5vw;
+  font-family: 'Robot Slab', serif;
+  color: var(--danger-color);
+  text-transform: uppercase;
+}
+
 /* Animation (Add After) */
 .item-enter {
   opacity: 0;
@@ -686,6 +696,12 @@ iframe {
 .item-exit-active {
   opacity: 0;
   transition: opacity 1000ms ease-in;
+}
+
+@media (min-width: 1440px) {
+  .contact-container {
+    margin-top: -0.1rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -794,6 +810,22 @@ iframe {
 }
 
 @media (max-width: 767px) {
+  .form-control {
+    font-size: 3vw;
+  }
+
+  .btn-sub {
+    font-size: 2.2vw;
+  }
+
+  .service-row-margin {
+    margin-top: 0rem;
+  }
+
+  .test-sub-title {
+    font-size: 2vw;
+  }
+
   .terms-text {
     font-size: 1.5vw;
   }
@@ -820,7 +852,7 @@ iframe {
   }
 
   .service-item {
-    font-size: 2vw;
+    font-size: 2.7vw;
   }
 
   .contact-container-form {
@@ -867,11 +899,11 @@ iframe {
   }
 
   .footer-list {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
 
   .footer-heading {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .work-heading {

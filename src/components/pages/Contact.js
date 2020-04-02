@@ -49,7 +49,7 @@ export const Contact = () => {
                       <input
                         type='name'
                         className='form-control'
-                        placeholder='Your Company Name'
+                        placeholder='Company Name'
                       />
                     </div>
                   </div>
@@ -64,7 +64,7 @@ export const Contact = () => {
                     <div className='col-md-6 col-12'>
                       <select className='form-control'>
                         <option value='' disabled selected>
-                          Select Enquiry Type
+                          Enquiry Type
                         </option>
                         <option>Business Enquiry</option>
                         <option>Job Application</option>
@@ -78,7 +78,7 @@ export const Contact = () => {
                     aria-label='With textarea'
                     placeholder='Message'
                   ></textarea>
-                  <a href='!#' className='btn btn-form btn-danger mt-4'>
+                  <a href='!#' className='btn btn-sub btn-form btn-danger mt-4'>
                     Submit
                   </a>
                 </div>

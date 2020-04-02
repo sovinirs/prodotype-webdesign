@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer className='footer-section bg-black'>
       <div className='container'>
         <div className='row'>
-          <div className='col-3'>
+          <div className='col-md-3 col-6'>
             <h3 className='footer-heading'>Follow Prodotype</h3>
             <ul className='nav-list footer-list'>
               <li className='nav-item footer-item'>
@@ -55,7 +55,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-3'>
+          <div className='col-md-3 col-6'>
             <h3 className='footer-heading'>Quick Links</h3>
             <ul className='nav-list footer-list'>
               <li className='nav-item footer-item'>
@@ -102,7 +102,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-3'>
+          <div className='col-md-3 col-6'>
             <h3 className='footer-heading'>Legal</h3>
             <ul className='nav-list footer-list'>
               <li className='nav-item footer-item'>
@@ -112,50 +112,50 @@ export const Footer = () => {
                 </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='privacy'>
                   <i className='fa fa-user-secret fa-sm'></i>
                   <span>&nbsp;</span> Privacy Policy
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='childrenprivacy'>
                   <i className='fa fa-child fa-sm'></i>
                   <span>&nbsp;</span> Children's Privacy Policy
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='consent'>
                   <i className='fa fa-copyright fa-sm'></i>
                   <span>&nbsp;</span> Copyright
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='termsofuse'>
                   <i className='fa fa-th-list fa-sm'></i>
                   <span>&nbsp;</span> Terms of Use
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='participants'>
                   <i className='fa fa-archive fa-sm'></i>
                   <span>&nbsp;</span> Participants Guidelines
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='/export'>
                   <i className='fa fa-exchange fa-sm'></i>
                   <span>&nbsp;</span> Export Compliance
-                </a>
+                </Link>
               </li>
               <li className='nav-item footer-item'>
-                <a href='!#' onClick={onClick}>
+                <Link to='cookie'>
                   <i className='fa fa-file-alt fa-sm'></i>
                   <span>&nbsp;</span> Cookie Statement
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
-          <div className='col-3'>
+          <div className='col-md-3 col-6'>
             <h3 className='footer-heading'>Prodotype</h3>
             <ul className='nav-list footer-list'>
               <li className='nav-item footer-item'>

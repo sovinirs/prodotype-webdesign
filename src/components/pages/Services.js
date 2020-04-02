@@ -24,8 +24,8 @@ export const Services = () => {
             With over 10+ service areas and skills, our toolbox of services will
             be sure to satisfy any of your queries.
           </p>
-          <div className='service-item-container'>
-            <div className='row mt-4'>
+          <div className='container'>
+            <div className='row service-row-margin'>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
                   <i className='fa fa-pencil'></i>
@@ -39,7 +39,7 @@ export const Services = () => {
               </div>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-cogs'></i>
                   <span>&nbsp;&nbsp;</span>Industrial Machinery Design
                 </h2>
                 <p className='services-desc-text'>
@@ -48,10 +48,10 @@ export const Services = () => {
                 </p>
               </div>
             </div>
-            <div className='row mt-4'>
+            <div className='row service-row-margin'>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-car'></i>
                   <span>&nbsp;&nbsp;</span>Vehicular Design
                 </h2>
                 <p className='services-desc-text'>
@@ -61,7 +61,7 @@ export const Services = () => {
               </div>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-tablet'></i>
                   <span>&nbsp;&nbsp;</span>Furniture Design
                 </h2>
                 <p className='services-desc-text'>
@@ -70,10 +70,10 @@ export const Services = () => {
                 </p>
               </div>
             </div>
-            <div className='row mt-4 mb-5'>
+            <div className='row service-row-margin mb-5'>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-connectdevelop'></i>
                   <span>&nbsp;&nbsp;</span>General Product Design
                 </h2>
                 <p className='services-desc-text'>
@@ -84,7 +84,7 @@ export const Services = () => {
               </div>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-archive'></i>
                   <span>&nbsp;&nbsp;</span>Packaging Design
                 </h2>
                 <p className='services-desc-text'>
@@ -95,18 +95,18 @@ export const Services = () => {
             </div>
           </div>
         </div>
-        <div className='service-car-image mt-5'>
+        <div className='service-car-image'>
           <img src={carDesign} alt='Car Design' />
         </div>
         <div className='container bg-vdark'>
           <h2 className='services-desc-heading text-center mt-5'>
             EVERYTHING IS POSSIBLE
           </h2>
-          <div className='service-item-container'>
-            <div className='row mt-4'>
+          <div className='container'>
+            <div className='row service-row-margin mt-4'>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-plus'></i>
                   <span>&nbsp;&nbsp;</span>Medical Equipment Design
                 </h2>
                 <p className='services-desc-text'>
@@ -117,7 +117,7 @@ export const Services = () => {
               </div>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-music'></i>
                   <span>&nbsp;&nbsp;</span>Musical Instrument and Equipment
                   Design
                 </h2>
@@ -129,10 +129,10 @@ export const Services = () => {
                 </p>
               </div>
             </div>
-            <div className='row mt-4'>
+            <div className='row service-row-margin'>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-graduation-cap'></i>
                   <span>&nbsp;&nbsp;</span>Engineering Design
                 </h2>
                 <p className='services-desc-text'>
@@ -143,7 +143,7 @@ export const Services = () => {
               </div>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-adjust'></i>
                   <span>&nbsp;&nbsp;</span>Conceptual Design
                 </h2>
                 <p className='services-desc-text'>
@@ -153,7 +153,7 @@ export const Services = () => {
                 </p>
               </div>
             </div>
-            <div className='row mt-4 mb-5'>
+            <div className='row service-row-margin mb-5'>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
                   <i className='fa fa-pencil'></i>
@@ -167,7 +167,7 @@ export const Services = () => {
               </div>
               <div className='col-md-6 col-12'>
                 <h2 className='service-item'>
-                  <i className='fa fa-pencil'></i>
+                  <i className='fa fa-lightbulb-o'></i>
                   <span>&nbsp;&nbsp;</span>Design Thinking Services
                 </h2>
                 <p className='services-desc-text'>
